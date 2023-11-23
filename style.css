@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 480px;
+  margin: auto;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.2s ease;
+}
+.header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  width: 100%;
+  border-bottom: 1px solid;
+  gap: 1rem;
+  padding: 15px 20px;
+}
+#installBtn {
+  width: 50px;
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid rgba(35, 35, 35, 0.25);
+  transition: border 0.2s ease, background-color 0.2s ease;
+  font-weight: bolder;
+  border-radius: 4px;
+  text-align: center;
+  padding: 6px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  justify-self: flex-end;
+}
+#installBtn:hover,
+#installBtn:active {
+  background-color: rgba(35, 35, 35, 0.15);
+  border: 1px solid rgba(35, 35, 35, 0.15);
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgba(35, 35, 35, 0.85);
+  gap: 1rem;
+  padding: 10px;
+  margin: 1rem;
+  border-radius: 8px;
+  border: 2px solid rgba(35, 35, 35, 0.25);
+  user-select: none;
+  box-shadow: 0 0 3px 0;
+}
+.heading h1 {
+  text-align: center;
+}
