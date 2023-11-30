@@ -9,7 +9,7 @@ workbox.routing.registerRoute(
 );
 
 // const staticCacheName = 'site-static';
-const staticCacheName = "site-cache-color-changer-v1";
+const staticCacheName = "site-cache-color-changer-v2";
 const assets = ["/", "/index.html", "./app.js", "./style.css", "./logo.png"];
 
 self.addEventListener("install", (evt) => {

@@ -1,7 +1,7 @@
 const body = document.body;
 
 const myFavColors = [
-  "pink",
+  "#FC2C9C",
   "yellow",
   "green",
   "red",
